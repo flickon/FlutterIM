@@ -1,6 +1,6 @@
-# Flutter WhatsAppClone
+# Flutter IM
 
-Building a WhatsApp Clone in Flutter.
+My flutter IM, based on iampawan's early work
 
 # License
 
