@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
 
-class StatusScreen extends StatelessWidget {
+class ContectsScreen extends StatefulWidget {
+  @override
+  ContectsScreenState createState() {
+    return new ContectsScreenState();
+  }
+}
+
+class ContectsScreenState extends State<ContectsScreen> {
   @override
   Widget build(BuildContext context) {
     return new Center(

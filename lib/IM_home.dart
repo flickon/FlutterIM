@@ -56,17 +56,9 @@ class _IMHomeState extends State<IMHome>
         children: <Widget>[
           new CameraScreen(widget.cameras),
           new ChatScreen(),
-          new StatusScreen(),
+          new ContectsScreen(),
           new CallsScreen(),
         ],
-      ),
-      floatingActionButton: new FloatingActionButton(
-        backgroundColor: Theme.of(context).accentColor,
-        child: new Icon(
-          Icons.message,
-          color: Colors.white,
-        ),
-        onPressed: () => print("open chats"),
       ),
     );
   }
