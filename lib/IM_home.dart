@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutterIM/pages/call_screen.dart';
 import 'package:flutterIM/pages/camera_screen.dart';
 import 'package:flutterIM/pages/chat_screen.dart';
-import 'package:flutterIM/pages/status_screen.dart';
+import 'package:flutterIM/pages/contects_screen.dart';
 
 class IMHome extends StatefulWidget {
   var cameras;
@@ -44,9 +44,11 @@ class _IMHomeState extends State<IMHome>
         actions: <Widget>[
           new Icon(Icons.search),
           new Padding(
-            padding: const EdgeInsets.symmetric(horizontal: 5.0),
+            padding: const EdgeInsets.symmetric(horizontal:10.0)
           ),
-          new Icon(Icons.more_vert)
+          new Icon(Icons.more_vert),
+          new Padding(padding: const EdgeInsets.symmetric(horizontal: 10.0)
+          ),
         ],
       ),
       body: new TabBarView(
