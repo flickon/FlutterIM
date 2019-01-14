@@ -16,7 +16,7 @@ List<ChatModel> dummyData = [
           "http://www.usanetwork.com/sites/usanetwork/files/styles/629x720/public/suits_cast_harvey.jpg?itok=fpTOeeBb"),
   new ChatModel(
       name: "Harvey Spectre",
-      message: "Hey I have hacked whatsapp!",
+      message: "Hey I have hacked this IM!",
       time: "17:30",
       avatarUrl:
           "http://www.usanetwork.com/sites/usanetwork/files/styles/629x720/public/suits_cast_harvey.jpg?itok=fpTOeeBb"),

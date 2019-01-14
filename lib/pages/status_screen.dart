@@ -5,7 +5,7 @@ class StatusScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return new Center(
       child: new Text(
-        "Status",
+        "Contects",
         style: new TextStyle(fontSize: 20.0),
       ),
     );
