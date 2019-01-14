@@ -2,9 +2,7 @@ import 'package:flutter/material.dart';
 
 class ContectsScreen extends StatefulWidget {
   @override
-  ContectsScreenState createState() {
-    return new ContectsScreenState();
-  }
+  ContectsScreenState createState() => new ContectsScreenState();
 }
 
 class ContectsScreenState extends State<ContectsScreen> {
