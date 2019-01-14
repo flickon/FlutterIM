@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
-import 'package:flutterwhatsapp/pages/call_screen.dart';
-import 'package:flutterwhatsapp/pages/camera_screen.dart';
-import 'package:flutterwhatsapp/pages/chat_screen.dart';
-import 'package:flutterwhatsapp/pages/status_screen.dart';
+import 'package:flutterIM/pages/call_screen.dart';
+import 'package:flutterIM/pages/camera_screen.dart';
+import 'package:flutterIM/pages/chat_screen.dart';
+import 'package:flutterIM/pages/status_screen.dart';
 
-class WhatsAppHome extends StatefulWidget {
+class IMHome extends StatefulWidget {
   var cameras;
-  WhatsAppHome(this.cameras);
+  IMHome(this.cameras);
 
   @override
-  _WhatsAppHomeState createState() => new _WhatsAppHomeState();
+  _IMHomeState createState() => new _IMHomeState();
 }
 
-class _WhatsAppHomeState extends State<WhatsAppHome>
+class _IMHomeState extends State<IMHome>
     with SingleTickerProviderStateMixin {
   TabController _tabController;
 

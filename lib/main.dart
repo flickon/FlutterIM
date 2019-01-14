@@ -1,8 +1,7 @@
 import 'dart:async';
-
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:flutterwhatsapp/IM_home.dart';
+import 'package:flutterIM/IM_home.dart';
 
 List<CameraDescription> cameras;
 
@@ -19,10 +18,10 @@ class MyApp extends StatelessWidget {
       theme: new ThemeData(
         primaryColor: Colors.blue,
         accentColor: Colors.cyan[600],
-        brightness: Brightness.light,
+        brightness: Brightness.light, // The theme is light by default
       ),
       debugShowCheckedModeBanner: false,
-      home: new WhatsAppHome(cameras),
+      home: new IMHome(cameras),
     );
   }
 }
