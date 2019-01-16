@@ -15,7 +15,9 @@ List<ChatModel> testMessages = [
       avatarUrl: "https://upload.wikimedia.org/wikipedia/commons/5/54/Journey_to_the_West_on_Star_Reunion_58.JPG"),
   new ChatModel(
       name: "Harvey Spectre",
-      message: "Hey I have hacked this IM!",
+      message: "Hey I have hacked this IM! I know this looks stuipd but I just want to know that how well when this IM processing long string in preview screen, you know sometimes people would send you a really lony message"
+          "like this, i dont think you want to see any unexpected thing happen LOL. Therefore, I have to make this message really long to make sure that everything"
+          "is working just fun LOL.",
       time: "17:30",
       avatarUrl: "http://www.usanetwork.com/sites/usanetwork/files/styles/629x720/public/suits_cast_harvey.jpg?itok=fpTOeeBb"),
   new ChatModel(
